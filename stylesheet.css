@@ -1,0 +1,43 @@
+/* Reset CSS*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+li{
+    list-style: none;
+}
+
+/* Header*/
+header{
+    background-color: #2cac81;
+    color: #fff;
+    height: 90px;
+    border: 1px solid;
+}
+
+.header-logo{
+    float: left;
+    font-size: 36px;
+    padding: 20px 40px;
+}
+
+.header-list li{
+    float: right;
+    padding: 35px 20px;
+    display: inline-block;
+}
+
+.header-list li a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.header-list li a:hover{
+    background-color: #fff;
+    color:#2cac81;
+}
